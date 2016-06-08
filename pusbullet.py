@@ -8,7 +8,7 @@ from weboob.capabilities.bank import CapBank
 
 
 def send_push(title, text):
-	pb = Pushbullet('o.1JLzVmdz4EHRfvNCjsCbNiGYw0nAuBol')
+	pb = Pushbullet('YOUPUSHBULLETACCESSTOKEN')
 	pprint('Sending push...')
 	push = pb.push_note(title, text)
 
